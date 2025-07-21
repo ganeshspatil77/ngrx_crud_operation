@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@media (max-width: 600px) {
+  form {
+    padding: 10px;
+
+    mat-card {
+      padding: 10px;
+
+      mat-card-title {
+        font-size: 20px;
+      }
+    }
+
+    mat-card-actions {
+      flex-direction: column;
+      align-items: stretch;
+
+      button {
+        width: 100%;
+        margin: 5px 0 0 0;
+      }
+    }
+  }
+}
+
+.green-snackbar{
+  background-color: green !important;
+  color: white;
+}
+
+.green-snackbar button{
+  background-color: green !important;
+  color: white;
+  border: none;
+}
+
+.red-snackbar{
+  background-color: red !important;
+  color: white;
+}
+
+.red-snackbar button{
+  background-color: red !important;
+  color: white;
+  border: none;
+}
+

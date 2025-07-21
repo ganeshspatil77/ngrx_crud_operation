@@ -1,0 +1,104 @@
+{
+  "associate": [
+    {
+      "id": 1,
+      "name": "Ganesh Patil",
+      "email": "ganeshpatil@gmail.com",
+      "phone": "9075585508",
+      "type": "CUSTOMER",
+      "address": "Karve Nagar, Pune",
+      "group": "level1",
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "Ganesh Patil2",
+      "email": "ganeshpatil@gmail.com",
+      "phone": "9075585508",
+      "type": "CUSTOMER",
+      "address": "Karve Nagar, Pune",
+      "group": "level1",
+      "status": true
+    },
+    {
+      "id": 3,
+      "name": "Ganesh Patil3",
+      "email": "ganeshpatil@gmail.com",
+      "phone": "9075585508",
+      "type": "CUSTOMER",
+      "address": "Karve Nagar, Pune",
+      "group": "level1",
+      "status": true
+    },
+    {
+      "id": 0,
+      "name": "Gansh4",
+      "email": "ganesh@gmail.com",
+      "phone": "6574747474",
+      "group": "level1",
+      "address": "saoji jin",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 0,
+      "name": "Komal",
+      "email": "komal@gmail.com",
+      "phone": "7685758576",
+      "group": "level1",
+      "address": "Mumbai",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": 0,
+      "name": "re",
+      "email": "ganesh@gmail.com",
+      "phone": "7575757575",
+      "group": "level1",
+      "address": "9goigg",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 0,
+      "name": "h;ga;",
+      "email": "ganesh@gmail.com",
+      "phone": "7676767676",
+      "group": "level1",
+      "address": "ihrghfgi",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 0,
+      "name": "hghgh",
+      "email": "ganesh@gmail.com",
+      "phone": "3232323232",
+      "group": "level1",
+      "address": "trtrtrtrt",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 0,
+      "name": "wewe",
+      "email": "ganesh@gmail.com",
+      "phone": "767676767676",
+      "group": "level1",
+      "address": "hjhhjh",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 0,
+      "name": "dfdf",
+      "email": "ganesh@gmail.com",
+      "phone": "qweqwe",
+      "group": "level1",
+      "address": "qweqe",
+      "type": "CUSTOMER",
+      "status": true
+    }
+  ]
+}

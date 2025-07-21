@@ -1,0 +1,63 @@
+<form [formGroup]="associateForm">
+
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>{{title}}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            @if (isEdit) {
+            <mat-form-field>
+                <mat-label>Id</mat-label>
+                <input formControlName="id" matInput>
+            </mat-form-field>
+            }
+            <div class="row">
+                 <mat-form-field class="half-width">
+                    <mat-label>Name</mat-label>
+                    <input formControlName="name" matInput />
+                </mat-form-field>
+                <mat-form-field class="half-width">
+                    <mat-label>E-Mail</mat-label>
+                    <input formControlName="email" matInput />
+                </mat-form-field>
+
+                
+            </div>
+
+            <mat-form-field>
+                <mat-label>Phone</mat-label>
+                <input formControlName="phone" matInput>
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Address</mat-label>
+                <textarea formControlName="address" matInput></textarea>
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Associate Group</mat-label>
+                <mat-select formControlName="group">
+                    <mat-option value="level1">Level 1</mat-option>
+                    <mat-option value="level2">Level 2</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <div>
+                <mat-radio-group formControlName="type">
+                    <mat-radio-button color="primary" value="CUSTOMER">CUSTOMER</mat-radio-button>
+                    <mat-radio-button color="accent" value="SUPPLIER">SUPPLIER</mat-radio-button>
+                </mat-radio-group>
+            </div>
+            <div>
+                <mat-checkbox formControlName="status">Is Active</mat-checkbox>
+            </div>
+
+        </mat-card-content>
+
+        <mat-card-actions>
+            <button mat-raised-button color="primary" type="submit" (click)="saveAssociate()">Save</button>
+            <button mat-raised-button color="accent" (click)="closePopUp()">Close</button>
+        </mat-card-actions>
+
+    </mat-card>
+
+</form>
